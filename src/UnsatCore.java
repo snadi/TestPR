@@ -30,7 +30,7 @@ public class UnsatCore {
 
             IProblem problem = reader.parseInstance(args[0]);
             if (problem.isSatisfiable()) {
-                System.out.println("Formula is Satisfiable");
+                System.out.println("Satisfiable Formula");
             } else {
                 System.out.println("Unsatisfiable Formula");
 
