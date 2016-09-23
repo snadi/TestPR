@@ -33,7 +33,7 @@ public class UnsatCore {
                 System.out.println("Satisfiable");
             } else {
                 System.out.println("Unsatisfiable");
-                //Collection<IConstr> minConstraints = solver.explain();
+                
                 int[] explanation = solver.minimalExplanation();
 
                 System.out.println("number of problematic clauses: " + explanation.length);
@@ -41,10 +41,6 @@ public class UnsatCore {
                 for (int clauseIndex : explanation) {
                     System.out.println("clause index: " + clauseIndex);
                 }
-
-//                for(IConstr constraint : minConstraints){
-//                    System.out.println("constraint: " + constraint.);
-//                }
 
             }
 
