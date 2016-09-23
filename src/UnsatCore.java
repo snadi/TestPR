@@ -32,7 +32,7 @@ public class UnsatCore {
             if (problem.isSatisfiable()) {
                 System.out.println("Satisfiable");
             } else {
-                System.out.println("Unsatisfiable");
+                System.out.println("Formula is Unsatisfiable");
                 
                 int[] explanation = solver.minimalExplanation();
 
