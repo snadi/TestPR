@@ -32,8 +32,8 @@ public class UnsatCore {
             if (problem.isSatisfiable()) {
                 System.out.println("Satisfiable");
             } else {
-                System.out.println("Formula is Unsatisfiable");
-                
+                System.out.println("Unsatisfiable Formula");
+
                 int[] explanation = solver.minimalExplanation();
 
                 System.out.println("number of problematic clauses: " + explanation.length);
