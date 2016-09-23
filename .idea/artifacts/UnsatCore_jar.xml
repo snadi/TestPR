@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UnsatCore:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UnsatCore_jar</output-path>
+    <root id="archive" name="UnsatCore.jar">
+      <element id="module-output" name="UnsatCore" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/org.sat4j.core.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
